@@ -1,4 +1,4 @@
-// soal 2
+// Soal 2
 
 const sentence = "Saya sangat senang mengerjakan soal algoritma";
 
