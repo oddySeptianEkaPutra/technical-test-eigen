@@ -1,0 +1,17 @@
+[
+  {
+    "code": "M001",
+    "name": "Angga",
+    "penaltyStatus": "inactive"
+  },
+  {
+    "code": "M002",
+    "name": "Ferry",
+    "penaltyStatus": "inactive"
+  },
+  {
+    "code": "M003",
+    "name": "Putri",
+    "penaltyStatus": "inactive"
+  }
+]
