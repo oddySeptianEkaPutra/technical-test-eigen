@@ -16,9 +16,6 @@ module.exports = (sequelize, DataTypes) => {
   Transaction.init({
     BookId: DataTypes.INTEGER,
     MemberId: DataTypes.INTEGER,
-    rentalDate: DataTypes.DATE,
-    returnDue: DataTypes.DATE,
-    returnDate: DataTypes.DATE,
   }, {
     sequelize,
     modelName: 'Transaction',

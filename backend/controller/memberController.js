@@ -14,6 +14,7 @@ class MemberController {
     } catch (err) {
       if (err) {
         res.status(500).json({
+          statusCode: 500,
           message: 'Internal Server Error'
         })
       }
