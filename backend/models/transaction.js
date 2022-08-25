@@ -17,7 +17,8 @@ module.exports = (sequelize, DataTypes) => {
     BookId: DataTypes.INTEGER,
     MemberId: DataTypes.INTEGER,
     rentalDate: DataTypes.DATE,
-    returnDue: DataTypes.DATE
+    returnDue: DataTypes.DATE,
+    returnDate: DataTypes.DATE,
   }, {
     sequelize,
     modelName: 'Transaction',
